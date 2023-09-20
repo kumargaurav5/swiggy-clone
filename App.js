@@ -1,15 +1,7 @@
+import React from 'react'
+import ReactDOM from 'react-dom/client'
 const heading= React.createElement(
-    'div',{id:"parent"},
-    
-    [React.createElement(
-    'h1',{id:"heading1"},'Swiggy-clone'
-    
-    ),
-    React.createElement(
-    'h2',{id:"heading2"},'Swiggy-clone'
-        
-        )]
-    
+    'h1',{id:"heading1"}, "swiggy clone is "
     );
 
 console.log(heading)
