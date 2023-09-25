@@ -1,9 +1,9 @@
 import RestaurantCard from "./RestaurantCard";
 import { useState ,useEffect} from "react";
-
+import resObj from "../utlis/mockData";
 
 const Body=()=>{
-    const [listresObj,setlistresObj]=useState([])
+    const [listresObj,setlistresObj]=useState(resObj)
 
     useEffect(()=>{
         fetchData()
